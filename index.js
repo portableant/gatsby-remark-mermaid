@@ -1,5 +1,5 @@
 const path = require('path');
-const visit = require('unist-util-visit');
+import {visit} from 'unist-util-visit';
 const puppeteer = require('puppeteer');
 
 async function render(browser, definition, theme, viewport, mermaidOptions) {
