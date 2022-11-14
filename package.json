@@ -29,6 +29,7 @@
     "unist-util-visit": "^2.0.3"
   },
   "peerDependencies": {
-    "puppeteer": "*"
+    "puppeteer": "*",
+    "puppeteer-core": "*"
   }
 }
