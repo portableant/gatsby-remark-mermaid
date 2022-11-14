@@ -1,6 +1,6 @@
-import path from 'path';
-import {visit} from 'unist-util-visit';
-import puppeteer from 'puppeteer';
+const path = require('path');
+const visit = require('unist-util-visit');
+const puppeteer = require('puppeteer');
 
 async function render(browser, definition, theme, viewport, mermaidOptions) {
     const page = await browser.newPage();
